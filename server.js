@@ -8,7 +8,7 @@ app.use('/public', express.static(__dirname+'/public'))
 
 app.use('/build', express.static(__dirname+'/build'))
 
-// app.use(express.static(path.resolve(__dirname+"/public")))
+app.use(express.static(path.resolve(__dirname+"/")))
 
 if(process.env.NODE_ENV !== 'production'){
   const webpackMiddleware = require('webpack-dev-middleware')
@@ -18,7 +18,7 @@ if(process.env.NODE_ENV !== 'production'){
 }else{
   app.use(express.static('src'))
   app.get('*', (req,res) => {
-    res.sendFile(path.join(__dirname,'src/index.html'))
+    res.sendFile(path.join(__dirname,'public/index.html'))
   })
 }
 
