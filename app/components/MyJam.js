@@ -3,7 +3,8 @@ import React from 'react'
 const MyJam = () => {
   return(
     <div>
-      MyJam
+    <a src"http:/google.com" > MyJam
+    </a>
     </div>
   )
 }
