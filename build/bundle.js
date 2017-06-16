@@ -12573,9 +12573,13 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var MyJam = function MyJam() {
   return _react2.default.createElement(
-    'div',
+    "div",
     null,
-    'MyJam'
+    _react2.default.createElement(
+      "a",
+      { src: "http://google.com" },
+      " MyJam"
+    )
   );
 };
 
