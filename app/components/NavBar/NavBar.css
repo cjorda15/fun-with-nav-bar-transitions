@@ -19,7 +19,7 @@
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: #fff;
-  box-shadow: #000 1px 1px 1px;
+  box-shadow: #000 2px 2px 2px;
 }
 
 .bm-burger-bars:hover {

@@ -1,6 +1,8 @@
-body{
+.main-headline{
   background-image: url(giphy.gif);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  width: 100vw;
+  height:50vh;
 }

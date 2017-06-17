@@ -8,8 +8,10 @@ import NavBar from './components/NavBar/NavBar'
 
 const Content = () => {
   return (
-     <div>
+     <div className="main-content-container">
+      <div className="main-headline">
       <NavBar/>
+      </div>
       <Switch>
         <Route path="/forms" render = {(history) => {
           return <Forms history = {history}/>}}/>
