@@ -2,7 +2,7 @@ import React from 'react'
 
 const MainContent = () => {
   return(
-    <div className= "main-content-container">
+    <div id="main-content-container" className= "main-content-container">
 
 wooooooo home
     </div>

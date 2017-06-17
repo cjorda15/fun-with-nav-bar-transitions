@@ -4,15 +4,21 @@
   font-weight: 100;
   text-decoration: none;
   font-size: 30px;
-  padding-top: 40px;
+  margin-top: 40px;
+}
+
+.nav-link:hover{
+  color: #f21515;
+  text-shadow: 1px 1px 1px #000;
+  transition: all 1s !important;
 }
 
 /* Position and sizing of burger button */
 .bm-burger-button {
-  position: fixed;
-  width: 36px;
-  height: 30px;
-  left: 36px;
+  position: absolute;
+  width: 60px;
+  height: 40px;
+  right: 36px;
   top: 36px;
 }
 
@@ -23,7 +29,8 @@
 }
 
 .bm-burger-bars:hover {
-transition: all .5s
+  background: cyan;
+  transition: all .5s !important
 }
 
 /* Position and sizing of clickable cross button */

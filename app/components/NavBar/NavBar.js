@@ -21,14 +21,15 @@ class NavBar extends Component{
   },100)
  }
 
-
   render(){
   return(
    <div className="nav-bar-container">
     <Menu
+     right
      isOpen={ false }
      className="bm-menu">
      <NavLink
+     onClick={()=>{this.scrollAfterSearch('main-content-container')}}
       className="nav-link"
       to={'/'}>
         home

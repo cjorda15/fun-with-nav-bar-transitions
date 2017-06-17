@@ -1,8 +1,23 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+}
+
 .main-headline{
   background-image: url(giphy.gif);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.main-content-container{
+  background-image: url(dea.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   width: 100vw;
-  height:50vh;
+  height: 100vh;
 }
