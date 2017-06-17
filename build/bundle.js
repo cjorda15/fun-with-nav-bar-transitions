@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "623b79cbb557ba820cd2"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "ef1319c22200f5462c4c"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -5988,7 +5988,7 @@ exports = module.exports = __webpack_require__(64)(undefined);
 
 
 // module
-exports.push([module.i, "/* Position and sizing of burger button */\n.bm-burger-button {\n  position: fixed;\n  width: 36px;\n  height: 30px;\n  left: 36px;\n  top: 36px;\n}\n\n/* Color/shape of burger icon bars */\n.bm-burger-bars {\n  background: #373a47;\n}\n\n/* Position and sizing of clickable cross button */\n.bm-cross-button {\n  height: 24px;\n  width: 24px;\n}\n\n/* Color/shape of close button cross */\n.bm-cross {\n  background: #bdc3c7;\n}\n\n/* General sidebar styles */\n.bm-menu {\n  background: #373a47;\n  padding: 2.5em 1.5em 0;\n  font-size: 1.15em;\n}\n\n/* Morph shape necessary with bubble or elastic */\n.bm-morph-shape {\n  fill: #373a47;\n}\n\n/* Wrapper for item list */\n.bm-item-list {\n  color: #b8b7ad;\n  padding: 0.8em;\n}\n\n/* Styling of overlay */\n.bm-overlay {\n  background: rgba(0, 0, 0, 0.3);\n}\n", ""]);
+exports.push([module.i, ".nav-link{\n  color: aquamarine;\n  font-family: sans-serif;\n  font-weight: 100;\n  text-decoration: none;\n  font-size: 30px;\n  padding-top: 40px;\n}\n\n/* Position and sizing of burger button */\n.bm-burger-button {\n  position: fixed;\n  width: 36px;\n  height: 30px;\n  left: 36px;\n  top: 36px;\n}\n\n/* Color/shape of burger icon bars */\n.bm-burger-bars {\n  background: #fff;\n  box-shadow: #000 1px 1px 1px;\n}\n\n.bm-burger-bars:hover {\ntransition: all .5s\n}\n\n/* Position and sizing of clickable cross button */\n.bm-cross-button {\n  height: 24px;\n  width: 24px;\n}\n\n/* Color/shape of close button cross */\n.bm-cross {\n  background: #fff;\n  box-shadow: #000 1px 1px 1px 1px;\n}\n\n.bm-menu-wrap{\n  width: 50%;\n  max-width:\n}\n\n/* General sidebar styles */\n.bm-menu {\n  background: #373a47;\n  padding: 2.5em 1.5em 0;\n  font-size: 1.15em;\n}\n\n/* Morph shape necessary with bubble or elastic */\n.bm-morph-shape {\n  fill: #373a47;\n}\n\n/* Wrapper for item list */\n.bm-item-list {\n  color: #b8b7ad;\n  padding: 0.8em;\n}\n\n/* Styling of overlay */\n.bm-overlay {\n  background: rgba(0, 0, 0, 0.3);\n}\n", ""]);
 
 // exports
 
@@ -13369,19 +13369,6 @@ var NavBar = function (_Component) {
             _reactRouterDom.NavLink,
             {
               className: 'nav-link',
-              onClick: function (_onClick) {
-                function onClick() {
-                  return _onClick.apply(this, arguments);
-                }
-
-                onClick.toString = function () {
-                  return _onClick.toString();
-                };
-
-                return onClick;
-              }(function () {
-                onClick();
-              }),
               to: '/' },
             'home'
           ),

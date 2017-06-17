@@ -1,3 +1,6 @@
 body{
-  background: yellow;
+  background-image: url(giphy.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }

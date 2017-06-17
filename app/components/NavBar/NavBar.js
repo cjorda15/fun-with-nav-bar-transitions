@@ -16,7 +16,6 @@ class NavBar extends Component{
      className="bm-menu">
      <NavLink
       className="nav-link"
-      onClick={()=>{onClick()}}
       to={'/'}>
         home
      </NavLink>
@@ -40,6 +39,7 @@ class NavBar extends Component{
   )
  }
 }
+
 
 
 

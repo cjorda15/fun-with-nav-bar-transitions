@@ -1,3 +1,12 @@
+.nav-link{
+  color: aquamarine;
+  font-family: sans-serif;
+  font-weight: 100;
+  text-decoration: none;
+  font-size: 30px;
+  padding-top: 40px;
+}
+
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
@@ -9,7 +18,12 @@
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #373a47;
+  background: #fff;
+  box-shadow: #000 1px 1px 1px;
+}
+
+.bm-burger-bars:hover {
+transition: all .5s
 }
 
 /* Position and sizing of clickable cross button */
@@ -20,7 +34,13 @@
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #bdc3c7;
+  background: #fff;
+  box-shadow: #000 1px 1px 1px 1px;
+}
+
+.bm-menu-wrap{
+  width: 50%;
+  max-width:
 }
 
 /* General sidebar styles */
