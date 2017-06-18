@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "b0eadb4981666915c255"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "5e4080bda2ecc3d08d91"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -6738,7 +6738,7 @@ exports = module.exports = __webpack_require__(25)(undefined);
 
 
 // module
-exports.push([module.i, ".form-container{\n  height: 100vh;\n}\n\n.form-top-bar{\n  height: 75px;\n  width: 100vw;\n  background: #000;\n}\n", ""]);
+exports.push([module.i, ".form-container{\n  height: 100vh;\n}\n\n.form-top-bar{\n  height: 75px;\n  width: 100vw;\n  background: #000;\n}\n\n.form-field{\n  display: flex;\n  flex-direction: column;\n}\n\n.form-field input {\n  \n}\n", ""]);
 
 // exports
 
@@ -6752,7 +6752,7 @@ exports = module.exports = __webpack_require__(25)(undefined);
 
 
 // module
-exports.push([module.i, ".top-main-content{\n  flex-direction: column;\n  align-items: center;\n  background: aqua;\n  padding: 15px;\n  font-size: 25px;\n}\n\n.main-content-container{\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  height: 900px;\n\n}\n\n.main-info-container{\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  height: 200px;\n  background: beige;\n}\n", ""]);
+exports.push([module.i, ".top-main-content{\n  flex-direction: column;\n  align-items: center;\n  background: aqua;\n  padding: 15px;\n  font-size: 25px;\n}\n\n.main-content-container{\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  height: 900px;\n\n}\n\n.main-info-container{\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  height: 270px;\n  background: black;\n}\n", ""]);
 
 // exports
 
@@ -14132,7 +14132,14 @@ var Forms = function Forms() {
   return _react2.default.createElement(
     'div',
     { id: 'form-container', className: 'form-container' },
-    _react2.default.createElement('div', { className: 'form-top-bar' })
+    _react2.default.createElement('div', { className: 'form-top-bar' }),
+    _react2.default.createElement(
+      'form',
+      { className: 'form-field' },
+      _react2.default.createElement('input', { type: 'text', placeholder: 'enter your name' }),
+      _react2.default.createElement('input', { type: 'text', placeholder: 'enter your agent id' }),
+      _react2.default.createElement('input', { type: 'text', placeholder: 'enter your location' })
+    )
   );
 };
 

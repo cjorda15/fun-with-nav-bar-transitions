@@ -7,3 +7,16 @@
   width: 100vw;
   background: #000;
 }
+
+.form-field{
+  display: flex;
+  flex-direction: column;
+  background: whitesmoke;
+}
+
+.form-field input {
+  height: 70px;
+  margin: 6px;
+  padding-left: 15px;
+  font-size: 15px;
+}
