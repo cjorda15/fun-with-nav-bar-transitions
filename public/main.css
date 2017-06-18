@@ -17,7 +17,35 @@
   background-image: url(dea.gif);
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
+}
+
+.contact-container{
+  background-image: url(g.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.form-container{
+  background-image: url(b.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+@font-face {
+  font-family: starWars;
+  src: url(STARWARS.woff);
+}
+.top-main-content{
+  font-family: starWars;
+    display: flex;
+    justify-content: center;
 }

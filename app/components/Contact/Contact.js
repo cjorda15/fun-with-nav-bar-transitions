@@ -4,7 +4,8 @@ import './Contact.css'
 const Contact = () => {
   return(
     <div className="contact-container" id="contact-container">
-contact
+      <div className="contact-top-bar">
+      </div>
     </div>
   )
 }

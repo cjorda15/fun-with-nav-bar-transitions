@@ -1,0 +1,24 @@
+.top-main-content{
+  flex-direction: column;
+  align-items: center;
+  background: aqua;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.main-content-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 900px;
+
+}
+
+.main-info-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 270px;
+  background: black;
+}
