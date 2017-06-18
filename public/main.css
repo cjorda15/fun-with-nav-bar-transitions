@@ -39,11 +39,21 @@
   height: 100vh;
 }
 
+@@font-face {
+  font-family:bond;
+  src:url(jb.tff);
+}
 
 @font-face {
   font-family: starWars;
   src: url(STARWARS.woff);
 }
+
+.forms-footer-text{
+  font-family: bond;
+
+}
+
 .top-main-content{
   font-family: starWars;
     display: flex;

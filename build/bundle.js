@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "5e4080bda2ecc3d08d91"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "ed6f2ba1f566d0fb6861"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -706,7 +706,7 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(272)(__webpack_require__.s = 272);
+/******/ 	return hotCreateRequire(273)(__webpack_require__.s = 273);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -6738,7 +6738,7 @@ exports = module.exports = __webpack_require__(25)(undefined);
 
 
 // module
-exports.push([module.i, ".form-container{\n  height: 100vh;\n}\n\n.form-top-bar{\n  height: 75px;\n  width: 100vw;\n  background: #000;\n}\n\n.form-field{\n  display: flex;\n  flex-direction: column;\n}\n\n.form-field input {\n  \n}\n", ""]);
+exports.push([module.i, ".form-container{\n  height: 195vh;\n}\n\n.forms{\n  justify-content: space-around;\n  display: flex;\n  flex-direction: column;\n  height: 95%;\n}\n\n.form-top-bar{\n  height: 75px;\n  width: 100vw;\n  background: #000;\n}\n\n.forms-footer{\n  background: #fff;\n  height:110px;\n  width: 100vw;\n}\n\n.footer-logo{\n  background-image: url(" + __webpack_require__(271) + ");\n  background-size: contain;\n  background-repeat: no-repeat;\n  height: 50px;\n  width: 50px;\n}\n\n.forms-footer-content{\n  display: flex;\n  width: 100%;\n  height: 100%;\n  justify-content: space-around;\n  align-items: center;\n}\n\n.forms-footer-text{\n  font-family: sans-serif;\n  font-size: 21px;\n  font-weight: 100;\n}\n\n\n.form-style-5{\n    max-width: 500px;\n    padding: 10px 20px;\n    background: #f4f7f8;\n    margin: 10px auto;\n    background: #f4f7f8;\n    border-radius: 8px;\n    font-family: Georgia, \"Times New Roman\", Times, serif;\n}\n.form-style-5 fieldset{\n    border: none;\n}\n.form-style-5 legend {\n    font-size: 1.4em;\n    margin-bottom: 10px;\n}\n.form-style-5 label {\n    display: block;\n    margin-bottom: 8px;\n}\n.form-style-5 input[type=\"text\"],\n.form-style-5 input[type=\"date\"],\n.form-style-5 input[type=\"datetime\"],\n.form-style-5 input[type=\"email\"],\n.form-style-5 input[type=\"number\"],\n.form-style-5 input[type=\"search\"],\n.form-style-5 input[type=\"time\"],\n.form-style-5 input[type=\"url\"],\n.form-style-5 textarea,\n.form-style-5 select {\n    font-family: Georgia, \"Times New Roman\", Times, serif;\n    background: rgba(255,255,255,.1);\n    border: none;\n    border-radius: 4px;\n    font-size: 16px;\n    margin: 0;\n    outline: 0;\n    padding: 7px;\n    width: 100%;\n    box-sizing: border-box;\n    -webkit-box-sizing: border-box;\n    -moz-box-sizing: border-box;\n    background-color: #e8eeef;\n    color:#8a97a0;\n    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;\n    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;\n    margin-bottom: 30px;\n\n}\n.form-style-5 input[type=\"text\"]:focus,\n.form-style-5 input[type=\"date\"]:focus,\n.form-style-5 input[type=\"datetime\"]:focus,\n.form-style-5 input[type=\"email\"]:focus,\n.form-style-5 input[type=\"number\"]:focus,\n.form-style-5 input[type=\"search\"]:focus,\n.form-style-5 input[type=\"time\"]:focus,\n.form-style-5 input[type=\"url\"]:focus,\n.form-style-5 textarea:focus,\n.form-style-5 select:focus{\n    background: #d2d9dd;\n}\n.form-style-5 select{\n    -webkit-appearance: menulist-button;\n    height:35px;\n}\n.form-style-5 .number {\n    background: #1abc9c;\n    color: #fff;\n    height: 30px;\n    width: 30px;\n    display: inline-block;\n    font-size: 0.8em;\n    margin-right: 4px;\n    line-height: 30px;\n    text-align: center;\n    text-shadow: 0 1px 0 rgba(255,255,255,0.2);\n    border-radius: 15px 15px 15px 0px;\n}\n\n.form-style-5 input[type=\"submit\"],\n.form-style-5 input[type=\"button\"]\n{\n    position: relative;\n    display: block;\n    padding: 19px 39px 18px 39px;\n    color: #FFF;\n    margin: 0 auto;\n    background: #1abc9c;\n    font-size: 18px;\n    text-align: center;\n    font-style: normal;\n    width: 100%;\n    border: 1px solid #16a085;\n    border-width: 1px 1px 3px;\n    margin-bottom: 10px;\n}\n.form-style-5 input[type=\"submit\"]:hover,\n.form-style-5 input[type=\"button\"]:hover\n{\n    background: #109177;\n}\n\n.form-style-6{\n    font: 95% Arial, Helvetica, sans-serif;\n    max-width: 400px;\n    margin: 10px auto;\n    padding: 16px;\n    background: #F7F7F7;\n}\n.form-style-6 h1{\n    background: #43D1AF;\n    padding: 20px 0;\n    font-size: 140%;\n    font-weight: 300;\n    text-align: center;\n    color: #fff;\n    margin: -16px -16px 16px -16px;\n}\n.form-style-6 input[type=\"text\"],\n.form-style-6 input[type=\"date\"],\n.form-style-6 input[type=\"datetime\"],\n.form-style-6 input[type=\"email\"],\n.form-style-6 input[type=\"number\"],\n.form-style-6 input[type=\"search\"],\n.form-style-6 input[type=\"time\"],\n.form-style-6 input[type=\"url\"],\n.form-style-6 textarea,\n.form-style-6 select\n{\n    -webkit-transition: all 0.30s ease-in-out;\n    -moz-transition: all 0.30s ease-in-out;\n    -ms-transition: all 0.30s ease-in-out;\n    -o-transition: all 0.30s ease-in-out;\n    outline: none;\n    box-sizing: border-box;\n    -webkit-box-sizing: border-box;\n    -moz-box-sizing: border-box;\n    width: 100%;\n    background: #fff;\n    margin-bottom: 4%;\n    border: 1px solid #ccc;\n    padding: 3%;\n    color: #555;\n    font: 95% Arial, Helvetica, sans-serif;\n}\n.form-style-6 input[type=\"text\"]:focus,\n.form-style-6 input[type=\"date\"]:focus,\n.form-style-6 input[type=\"datetime\"]:focus,\n.form-style-6 input[type=\"email\"]:focus,\n.form-style-6 input[type=\"number\"]:focus,\n.form-style-6 input[type=\"search\"]:focus,\n.form-style-6 input[type=\"time\"]:focus,\n.form-style-6 input[type=\"url\"]:focus,\n.form-style-6 textarea:focus,\n.form-style-6 select:focus\n{\n    box-shadow: 0 0 5px #43D1AF;\n    padding: 3%;\n    border: 1px solid #43D1AF;\n}\n\n.form-style-6 input[type=\"submit\"],\n.form-style-6 input[type=\"button\"]{\n    box-sizing: border-box;\n    -webkit-box-sizing: border-box;\n    -moz-box-sizing: border-box;\n    width: 100%;\n    padding: 3%;\n    background: #43D1AF;\n    border-bottom: 2px solid #30C29E;\n    border-top-style: none;\n    border-right-style: none;\n    border-left-style: none;\n    color: #fff;\n}\n.form-style-6 input[type=\"submit\"]:hover,\n.form-style-6 input[type=\"button\"]:hover{\n    background: #2EBC99;\n}\n", ""]);
 
 // exports
 
@@ -6860,7 +6860,7 @@ var _resolvePathname = __webpack_require__(263);
 
 var _resolvePathname2 = _interopRequireDefault(_resolvePathname);
 
-var _valueEqual = __webpack_require__(271);
+var _valueEqual = __webpack_require__(272);
 
 var _valueEqual2 = _interopRequireDefault(_valueEqual);
 
@@ -14134,11 +14134,168 @@ var Forms = function Forms() {
     { id: 'form-container', className: 'form-container' },
     _react2.default.createElement('div', { className: 'form-top-bar' }),
     _react2.default.createElement(
-      'form',
-      { className: 'form-field' },
-      _react2.default.createElement('input', { type: 'text', placeholder: 'enter your name' }),
-      _react2.default.createElement('input', { type: 'text', placeholder: 'enter your agent id' }),
-      _react2.default.createElement('input', { type: 'text', placeholder: 'enter your location' })
+      'div',
+      { className: 'forms' },
+      _react2.default.createElement(
+        'div',
+        { className: 'form-style-5' },
+        _react2.default.createElement(
+          'form',
+          null,
+          _react2.default.createElement(
+            'fieldset',
+            null,
+            _react2.default.createElement(
+              'legend',
+              null,
+              _react2.default.createElement(
+                'span',
+                { className: 'number' },
+                '1'
+              ),
+              'Spy Candidate Info'
+            ),
+            _react2.default.createElement('input', { type: 'text', name: 'field1', placeholder: 'Your Name *' }),
+            _react2.default.createElement('input', { type: 'text', name: 'field1', placeholder: 'Your Agent ID *' }),
+            _react2.default.createElement('input', { type: 'email', name: 'field2', placeholder: 'Your Email *' }),
+            _react2.default.createElement('textarea', { name: 'field3', placeholder: 'About yourself' }),
+            _react2.default.createElement(
+              'label',
+              { htmlFor: 'job' },
+              'Interests:'
+            ),
+            _react2.default.createElement(
+              'select',
+              { id: 'job', name: 'field4' },
+              _react2.default.createElement(
+                'optgroup',
+                { label: 'Indoors' },
+                _react2.default.createElement(
+                  'option',
+                  { value: 'fishkeeping' },
+                  'Fishkeeping'
+                ),
+                _react2.default.createElement(
+                  'option',
+                  { value: 'reading' },
+                  'Reading'
+                ),
+                _react2.default.createElement(
+                  'option',
+                  { value: 'boxing' },
+                  'Boxing'
+                ),
+                _react2.default.createElement(
+                  'option',
+                  { value: 'debate' },
+                  'Debate'
+                ),
+                _react2.default.createElement(
+                  'option',
+                  { value: 'gaming' },
+                  'Gaming'
+                ),
+                _react2.default.createElement(
+                  'option',
+                  { value: 'snooker' },
+                  'Snooker'
+                ),
+                _react2.default.createElement(
+                  'option',
+                  { value: 'other_indoor' },
+                  'Other'
+                )
+              ),
+              _react2.default.createElement(
+                'optgroup',
+                { label: 'Outdoors' },
+                _react2.default.createElement(
+                  'option',
+                  { value: 'football' },
+                  'Football'
+                ),
+                _react2.default.createElement(
+                  'option',
+                  { value: 'swimming' },
+                  'Swimming'
+                ),
+                _react2.default.createElement(
+                  'option',
+                  { value: 'fishing' },
+                  'Fishing'
+                ),
+                _react2.default.createElement(
+                  'option',
+                  { value: 'climbing' },
+                  'Climbing'
+                ),
+                _react2.default.createElement(
+                  'option',
+                  { value: 'cycling' },
+                  'Cycling'
+                ),
+                _react2.default.createElement(
+                  'option',
+                  { value: 'other_outdoor' },
+                  'Other'
+                )
+              )
+            )
+          ),
+          _react2.default.createElement(
+            'fieldset',
+            null,
+            _react2.default.createElement(
+              'legend',
+              null,
+              _react2.default.createElement(
+                'span',
+                { className: 'number' },
+                '2'
+              ),
+              ' Additional Info'
+            ),
+            _react2.default.createElement('textarea', { name: 'field3', placeholder: 'About Your Agent School' })
+          ),
+          _react2.default.createElement('input', { type: 'submit', value: 'Apply', onClick: function onClick(e) {
+              e.preventDefalut();
+            } })
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'form-style-6' },
+        _react2.default.createElement(
+          'h1',
+          null,
+          'Contact Us'
+        ),
+        _react2.default.createElement(
+          'form',
+          null,
+          _react2.default.createElement('input', { type: 'text', name: 'field1', placeholder: 'Your Name' }),
+          _react2.default.createElement('input', { type: 'email', name: 'field2', placeholder: 'Email Address' }),
+          _react2.default.createElement('textarea', { name: 'field3', placeholder: 'Type your urgent  Message' }),
+          _react2.default.createElement('input', { type: 'submit', value: 'Send', onClick: function onClick(e) {
+              e.preventDefalut();
+            } })
+        )
+      ),
+      _react2.default.createElement(
+        'footer',
+        { className: 'forms-footer' },
+        _react2.default.createElement(
+          'div',
+          { className: 'forms-footer-content' },
+          _react2.default.createElement('div', { className: 'footer-logo' }),
+          _react2.default.createElement(
+            'div',
+            { className: 'forms-footer-text' },
+            'The name is...'
+          ),
+          _react2.default.createElement('div', { className: 'footer-logo' })
+        )
+      )
     )
   );
 };
@@ -37897,6 +38054,12 @@ module.exports = function (css) {
 
 /***/ }),
 /* 271 */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,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"
+
+/***/ }),
+/* 272 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37942,7 +38105,7 @@ var valueEqual = function valueEqual(a, b) {
 exports.default = valueEqual;
 
 /***/ }),
-/* 272 */
+/* 273 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(113);

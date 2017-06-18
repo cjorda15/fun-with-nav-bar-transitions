@@ -13,8 +13,13 @@ module.exports = {
        loaders:"babel-loader",
        exclude:/node_modules/},
        {test: /\.css$/,
-       loaders:'style-loader!css-loader'}
-    ]
+       loaders:'style-loader!css-loader'},
+       {test: /\.(jpg|png|svg)$/,
+        loader: 'url-loader',
+        options: {
+        limit: 25000,
+      }},
+      ]
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin()
