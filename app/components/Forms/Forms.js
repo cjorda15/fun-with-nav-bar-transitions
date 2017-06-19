@@ -4,7 +4,7 @@ import './Forms.css'
 const Forms = () => {
   return(
     <div id="form-container" className="form-container">
-      <div className="form-top-bar"></div>
+      <div className="form-top-bar"> Forms</div>
       <div className="forms">
       <div className="form-style-5">
         <form>

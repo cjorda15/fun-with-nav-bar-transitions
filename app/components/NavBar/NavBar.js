@@ -41,12 +41,6 @@ class NavBar extends Component{
       forms
      </NavLink>
      <NavLink
-      onClick={()=>{this.scrollAfterSearch('about-container')}}
-      className="nav-link"
-      to={'/about'}>
-      about
-     </NavLink>
-     <NavLink
       onClick={()=>{this.scrollAfterSearch('contact-container')}}
       className="nav-link"
       to={'/contact'}>

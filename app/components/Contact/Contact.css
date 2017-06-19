@@ -1,9 +1,97 @@
 .contact-container{
-  height:100vh;
+  height:200vh;
+  color: #fff;
+  font-family: monospace;
 }
 
+.contact-container h3{
+  text-align: center;
+}
+.contact-container h6{
+  font-size: 33px;
+}
+
+.contact-info-container{
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  max-width: 1200px;
+  margin: 0px auto;}
+
+
 .contact-top-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 20px;
   width: 100vw;
   height: 75px;
   background: #000;
+  color: #fff;
+}
+
+.contact-info{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 280px;
+  max-width: 330px;
+  margin-top: 15px;
+  padding: 30px;
+  background: #004F50;
+  border: 2px solid #fff;
+}
+
+.contact-info section{
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contact-info span{
+  font-weight: 900;
+}
+
+.contact-logo{
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.phone-logo{
+  background-image: url('phone.png')
+}
+
+.email-logo{
+  background-image: url('email.png')
+}
+
+.address-logo{
+  background-image: url('map.png')
+}
+
+@media (min-width:845px){
+  .contact-container{
+    height:100vh;
+  }
+
+  .contact-info-container{
+    flex-direction: row;
+    align-items: flex-start;;
+  }
+  .contact-info{
+    width: 30%;
+    justify-content: space-between;
+  }
 }
