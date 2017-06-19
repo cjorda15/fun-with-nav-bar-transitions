@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "918aed3132d36eb91558"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "1922b4d04d7416ac91b2"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -706,7 +706,7 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(273)(__webpack_require__.s = 273);
+/******/ 	return hotCreateRequire(278)(__webpack_require__.s = 278);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -6710,7 +6710,7 @@ exports = module.exports = __webpack_require__(30)(undefined);
 
 
 // module
-exports.push([module.i, ".contact-container{\n  height:200vh;\n  color: #fff;\n  font-family: monospace;\n}\n\n.contact-container h3{\n  text-align: center;\n}\n.contact-container h6{\n  font-size: 33px;\n}\n\n.contact-info-container{\n  justify-content: space-around;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  margin-top: 60px;\n  max-width: 1200px;\n  margin: 0px auto;}\n\n\n.contact-top-bar{\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-family: sans-serif;\n  font-weight: 100;\n  font-size: 20px;\n  width: 100vw;\n  height: 75px;\n  background: #000;\n  color: #fff;\n}\n\n.contact-info{\n  width: 90%;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  min-width: 280px;\n  max-width: 330px;\n  margin-top: 15px;\n  padding: 30px;\n  background: #004F50;\n  border: 2px solid #fff;\n}\n\n.contact-info section{\n  background: #000;\n  display: flex;\n  flex-direction: column;\n  width: 270px;\n  margin: 10px;\n  padding: 10px;\n  border-radius: 5px;\n}\n\n.contact-info span{\n  font-weight: 900;\n}\n\n.contact-logo{\n  height: 50px;\n  width: 50px;\n  background-size: cover;\n  background-repeat: no-repeat;\n}\n\n.phone-logo{\n  background-image: url(" + __webpack_require__(270) + ")\n}\n\n.email-logo{\n  background-image: url(" + __webpack_require__(268) + ")\n}\n\n.address-logo{\n  background-image: url(" + __webpack_require__(269) + ")\n}\n\n@media (min-width:845px){\n  .contact-container{\n    height:100vh;\n  }\n\n  .contact-info-container{\n    flex-direction: row;\n    align-items: flex-start;;\n  }\n  .contact-info{\n    width: 30%;\n    justify-content: space-between;\n  }\n}\n", ""]);
+exports.push([module.i, ".contact-container {\n  height: 200vh;\n  color: #fff;\n  font-family: monospace;\n}\n\n.contact-container h3 {\n  text-align: center;\n}\n\n.contact-container h6 {\n  font-size: 33px;\n}\n\n.contact-info-container {\n  justify-content: space-around;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  margin-top: 60px;\n  max-width: 1200px;\n  margin: 0px auto;\n}\n\n.contact-top-bar {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-family: sans-serif;\n  font-weight: 100;\n  font-size: 20px;\n  width: 100vw;\n  height: 75px;\n  background: #000;\n  color: #fff;\n}\n\n.contact-info {\n  width: 90%;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  min-width: 280px;\n  max-width: 330px;\n  margin-top: 15px;\n  padding: 30px;\n  background: #004F50;\n  border: 2px solid #fff;\n}\n\n.contact-info section {\n  background: #000;\n  display: flex;\n  flex-direction: column;\n  width: 270px;\n  margin: 10px;\n  padding: 10px;\n  border-radius: 5px;\n}\n\n.contact-info span {\n  font-weight: 900;\n}\n\n.contact-logo {\n  height: 50px;\n  width: 50px;\n  background-size: cover;\n  background-repeat: no-repeat;\n}\n\n.phone-logo {\n  background-image: url(" + __webpack_require__(270) + ");\n}\n\n.email-logo {\n  background-image: url(" + __webpack_require__(268) + ");\n}\n\n.address-logo {\n  background-image: url(" + __webpack_require__(269) + ");\n}\n\n@media (min-width:845px) {\n  .contact-container {\n    height: 100vh;\n  }\n\n  .contact-info-container {\n    flex-direction: row;\n    align-items: flex-start;\n  }\n\n  .contact-info {\n    width: 30%;\n    justify-content: space-between;\n  }\n}", ""]);
 
 // exports
 
@@ -6724,7 +6724,7 @@ exports = module.exports = __webpack_require__(30)(undefined);
 
 
 // module
-exports.push([module.i, ".form-container{\n  height: 195vh;\n}\n\n.forms{\n  justify-content: space-around;\n  display: flex;\n  flex-direction: column;\n  height: 95%;\n}\n\n.form-top-bar{\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-family: sans-serif;\n  font-weight: 100;\n  font-size: 20px;\n  height: 75px;\n  width: 100vw;\n  background: #000;\n  color:#fff;\n}\n\n.forms-footer{\n  background: #fff;\n  height:110px;\n  width: 100vw;\n  border: 5px solid;\n}\n\n.footer-logo{\n  background-image: url(" + __webpack_require__(271) + ");\n  background-size: contain;\n  background-repeat: no-repeat;\n  height: 50px;\n  width: 50px;\n}\n\n.forms-footer-content{\n  display: flex;\n  width: 100%;\n  height: 100%;\n  justify-content: space-around;\n  align-items: center;\n}\n\n.forms-footer-text{\n  font-family: sans-serif;\n  font-size: 21px;\n  font-weight: 100;\n}\n\n\n.form-style-5{\n    max-width: 500px;\n    padding: 10px 20px;\n    background: #f4f7f8;\n    margin: 10px auto;\n    background: #f4f7f8;\n    border-radius: 8px;\n    font-family: Georgia, \"Times New Roman\", Times, serif;\n}\n.form-style-5 fieldset{\n    border: none;\n}\n.form-style-5 legend {\n    font-size: 1.4em;\n    margin-bottom: 10px;\n}\n.form-style-5 label {\n    display: block;\n    margin-bottom: 8px;\n}\n.form-style-5 input[type=\"text\"],\n.form-style-5 input[type=\"date\"],\n.form-style-5 input[type=\"datetime\"],\n.form-style-5 input[type=\"email\"],\n.form-style-5 input[type=\"number\"],\n.form-style-5 input[type=\"search\"],\n.form-style-5 input[type=\"time\"],\n.form-style-5 input[type=\"url\"],\n.form-style-5 textarea,\n.form-style-5 select {\n    font-family: Georgia, \"Times New Roman\", Times, serif;\n    background: rgba(255,255,255,.1);\n    border: none;\n    border-radius: 4px;\n    font-size: 16px;\n    margin: 0;\n    outline: 0;\n    padding: 7px;\n    width: 100%;\n    box-sizing: border-box;\n    -webkit-box-sizing: border-box;\n    -moz-box-sizing: border-box;\n    background-color: #e8eeef;\n    color:#8a97a0;\n    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;\n    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;\n    margin-bottom: 30px;\n\n}\n.form-style-5 input[type=\"text\"]:focus,\n.form-style-5 input[type=\"date\"]:focus,\n.form-style-5 input[type=\"datetime\"]:focus,\n.form-style-5 input[type=\"email\"]:focus,\n.form-style-5 input[type=\"number\"]:focus,\n.form-style-5 input[type=\"search\"]:focus,\n.form-style-5 input[type=\"time\"]:focus,\n.form-style-5 input[type=\"url\"]:focus,\n.form-style-5 textarea:focus,\n.form-style-5 select:focus{\n    background: #d2d9dd;\n}\n.form-style-5 select{\n    -webkit-appearance: menulist-button;\n    height:35px;\n}\n.form-style-5 .number {\n    background: #1abc9c;\n    color: #fff;\n    height: 30px;\n    width: 30px;\n    display: inline-block;\n    font-size: 0.8em;\n    margin-right: 4px;\n    line-height: 30px;\n    text-align: center;\n    text-shadow: 0 1px 0 rgba(255,255,255,0.2);\n    border-radius: 15px 15px 15px 0px;\n}\n\n.form-style-5 input[type=\"submit\"],\n.form-style-5 input[type=\"button\"]\n{\n    position: relative;\n    display: block;\n    padding: 19px 39px 18px 39px;\n    color: #FFF;\n    margin: 0 auto;\n    background: #1abc9c;\n    font-size: 18px;\n    text-align: center;\n    font-style: normal;\n    width: 100%;\n    border: 1px solid #16a085;\n    border-width: 1px 1px 3px;\n    margin-bottom: 10px;\n}\n.form-style-5 input[type=\"submit\"]:hover,\n.form-style-5 input[type=\"button\"]:hover\n{\n    background: #109177;\n}\n\n.form-style-6{\n    font: 95% Arial, Helvetica, sans-serif;\n    max-width: 400px;\n    margin: 10px auto;\n    padding: 16px;\n    background: #F7F7F7;\n}\n.form-style-6 h1{\n    background: #43D1AF;\n    padding: 20px 0;\n    font-size: 140%;\n    font-weight: 300;\n    text-align: center;\n    color: #fff;\n    margin: -16px -16px 16px -16px;\n}\n.form-style-6 input[type=\"text\"],\n.form-style-6 input[type=\"date\"],\n.form-style-6 input[type=\"datetime\"],\n.form-style-6 input[type=\"email\"],\n.form-style-6 input[type=\"number\"],\n.form-style-6 input[type=\"search\"],\n.form-style-6 input[type=\"time\"],\n.form-style-6 input[type=\"url\"],\n.form-style-6 textarea,\n.form-style-6 select\n{\n    -webkit-transition: all 0.30s ease-in-out;\n    -moz-transition: all 0.30s ease-in-out;\n    -ms-transition: all 0.30s ease-in-out;\n    -o-transition: all 0.30s ease-in-out;\n    outline: none;\n    box-sizing: border-box;\n    -webkit-box-sizing: border-box;\n    -moz-box-sizing: border-box;\n    width: 100%;\n    background: #fff;\n    margin-bottom: 4%;\n    border: 1px solid #ccc;\n    padding: 3%;\n    color: #555;\n    font: 95% Arial, Helvetica, sans-serif;\n}\n.form-style-6 input[type=\"text\"]:focus,\n.form-style-6 input[type=\"date\"]:focus,\n.form-style-6 input[type=\"datetime\"]:focus,\n.form-style-6 input[type=\"email\"]:focus,\n.form-style-6 input[type=\"number\"]:focus,\n.form-style-6 input[type=\"search\"]:focus,\n.form-style-6 input[type=\"time\"]:focus,\n.form-style-6 input[type=\"url\"]:focus,\n.form-style-6 textarea:focus,\n.form-style-6 select:focus\n{\n    box-shadow: 0 0 5px #43D1AF;\n    padding: 3%;\n    border: 1px solid #43D1AF;\n}\n\n.form-style-6 input[type=\"submit\"],\n.form-style-6 input[type=\"button\"]{\n    box-sizing: border-box;\n    -webkit-box-sizing: border-box;\n    -moz-box-sizing: border-box;\n    width: 100%;\n    padding: 3%;\n    background: #43D1AF;\n    border-bottom: 2px solid #30C29E;\n    border-top-style: none;\n    border-right-style: none;\n    border-left-style: none;\n    color: #fff;\n}\n.form-style-6 input[type=\"submit\"]:hover,\n.form-style-6 input[type=\"button\"]:hover{\n    background: #2EBC99;\n}\n", ""]);
+exports.push([module.i, ".form-container {\n  height: 195vh;\n}\n\n.forms {\n  justify-content: space-around;\n  display: flex;\n  flex-direction: column;\n  height: 95%;\n}\n\n.form-top-bar {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  font-family: sans-serif;\n  font-weight: 100;\n  font-size: 20px;\n  height: 75px;\n  width: 100vw;\n  background: #000;\n  color: #fff;\n}\n\n.forms-footer {\n  background: #fff;\n  height: 110px;\n  width: 100vw;\n  border: 5px solid;\n}\n\n.footer-logo {\n  background-image: url(" + __webpack_require__(271) + ");\n  background-size: contain;\n  background-repeat: no-repeat;\n  height: 50px;\n  width: 50px;\n}\n\n.forms-footer-content {\n  display: flex;\n  width: 100%;\n  height: 100%;\n  justify-content: space-around;\n  align-items: center;\n}\n\n.forms-footer-text {\n  font-family: sans-serif;\n  font-size: 21px;\n  font-weight: 100;\n}\n\n.form-style-5 {\n  max-width: 500px;\n  padding: 10px 20px;\n  background: #f4f7f8;\n  margin: 10px auto;\n  background: #f4f7f8;\n  border-radius: 8px;\n  font-family: Georgia, \"Times New Roman\", Times, serif;\n}\n\n.form-style-5 fieldset {\n  border: none;\n}\n\n.form-style-5 legend {\n  font-size: 1.4em;\n  margin-bottom: 10px;\n}\n\n.form-style-5 label {\n  display: block;\n  margin-bottom: 8px;\n}\n\n.form-style-5 input[type=\"text\"],\n.form-style-5 input[type=\"date\"],\n.form-style-5 input[type=\"datetime\"],\n.form-style-5 input[type=\"email\"],\n.form-style-5 input[type=\"number\"],\n.form-style-5 input[type=\"search\"],\n.form-style-5 input[type=\"time\"],\n.form-style-5 input[type=\"url\"],\n.form-style-5 textarea,\n.form-style-5 select {\n  font-family: Georgia, \"Times New Roman\", Times, serif;\n  background: rgba(255,255,255,.1);\n  border: none;\n  border-radius: 4px;\n  font-size: 16px;\n  margin: 0;\n  outline: 0;\n  padding: 7px;\n  width: 100%;\n  box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  background-color: #e8eeef;\n  color: #8a97a0;\n  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;\n  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;\n  margin-bottom: 30px;\n}\n\n.form-style-5 input[type=\"text\"]:focus,\n.form-style-5 input[type=\"date\"]:focus,\n.form-style-5 input[type=\"datetime\"]:focus,\n.form-style-5 input[type=\"email\"]:focus,\n.form-style-5 input[type=\"number\"]:focus,\n.form-style-5 input[type=\"search\"]:focus,\n.form-style-5 input[type=\"time\"]:focus,\n.form-style-5 input[type=\"url\"]:focus,\n.form-style-5 textarea:focus,\n.form-style-5 select:focus {\n  background: #d2d9dd;\n}\n\n.form-style-5 select {\n  -webkit-appearance: menulist-button;\n  height: 35px;\n}\n\n.form-style-5 .number {\n  background: #1abc9c;\n  color: #fff;\n  height: 30px;\n  width: 30px;\n  display: inline-block;\n  font-size: 0.8em;\n  margin-right: 4px;\n  line-height: 30px;\n  text-align: center;\n  text-shadow: 0 1px 0 rgba(255,255,255,0.2);\n  border-radius: 15px 15px 15px 0px;\n}\n\n.form-style-5 input[type=\"submit\"],\n.form-style-5 input[type=\"button\"] {\n  position: relative;\n  display: block;\n  padding: 19px 39px 18px 39px;\n  color: #FFF;\n  margin: 0 auto;\n  background: #1abc9c;\n  font-size: 18px;\n  text-align: center;\n  font-style: normal;\n  width: 100%;\n  border: 1px solid #16a085;\n  border-width: 1px 1px 3px;\n  margin-bottom: 10px;\n}\n\n.form-style-5 input[type=\"submit\"]:hover,\n.form-style-5 input[type=\"button\"]:hover {\n  background: #109177;\n}\n\n.form-style-6 {\n  font: 95% Arial, Helvetica, sans-serif;\n  max-width: 400px;\n  margin: 10px auto;\n  padding: 16px;\n  background: #F7F7F7;\n}\n\n.form-style-6 h1 {\n  background: #43D1AF;\n  padding: 20px 0;\n  font-size: 140%;\n  font-weight: 300;\n  text-align: center;\n  color: #fff;\n  margin: -16px -16px 16px -16px;\n}\n\n.form-style-6 input[type=\"text\"],\n.form-style-6 input[type=\"date\"],\n.form-style-6 input[type=\"datetime\"],\n.form-style-6 input[type=\"email\"],\n.form-style-6 input[type=\"number\"],\n.form-style-6 input[type=\"search\"],\n.form-style-6 input[type=\"time\"],\n.form-style-6 input[type=\"url\"],\n.form-style-6 textarea,\n.form-style-6 select {\n  -webkit-transition: all 0.30s ease-in-out;\n  -moz-transition: all 0.30s ease-in-out;\n  -ms-transition: all 0.30s ease-in-out;\n  -o-transition: all 0.30s ease-in-out;\n  outline: none;\n  box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  width: 100%;\n  background: #fff;\n  margin-bottom: 4%;\n  border: 1px solid #ccc;\n  padding: 3%;\n  color: #555;\n  font: 95% Arial, Helvetica, sans-serif;\n}\n\n.form-style-6 input[type=\"text\"]:focus,\n.form-style-6 input[type=\"date\"]:focus,\n.form-style-6 input[type=\"datetime\"]:focus,\n.form-style-6 input[type=\"email\"]:focus,\n.form-style-6 input[type=\"number\"]:focus,\n.form-style-6 input[type=\"search\"]:focus,\n.form-style-6 input[type=\"time\"]:focus,\n.form-style-6 input[type=\"url\"]:focus,\n.form-style-6 textarea:focus,\n.form-style-6 select:focus {\n  box-shadow: 0 0 5px #43D1AF;\n  padding: 3%;\n  border: 1px solid #43D1AF;\n}\n\n.form-style-6 input[type=\"submit\"],\n.form-style-6 input[type=\"button\"] {\n  box-sizing: border-box;\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  width: 100%;\n  padding: 3%;\n  background: #43D1AF;\n  border-bottom: 2px solid #30C29E;\n  border-top-style: none;\n  border-right-style: none;\n  border-left-style: none;\n  color: #fff;\n}\n\n.form-style-6 input[type=\"submit\"]:hover,\n.form-style-6 input[type=\"button\"]:hover {\n  background: #2EBC99;\n}", ""]);
 
 // exports
 
@@ -6738,7 +6738,7 @@ exports = module.exports = __webpack_require__(30)(undefined);
 
 
 // module
-exports.push([module.i, ".top-main-content{\n  flex-direction: column;\n  align-items: center;\n  background: aqua;\n  padding: 15px;\n  font-size: 25px;\n}\n\n.main-content-container{\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  height: 900px;\n\n}\n\n.main-info-container{\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  height: 270px;\n  background: black;\n}\n", ""]);
+exports.push([module.i, ".top-main-content {\n  flex-direction: column;\n  align-items: center;\n  background: aqua;\n  padding: 15px;\n  font-size: 25px;\n}\n\n.main-info-container {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-gap: 40px;\n  grid-auto-rows: minmax(100px, auto);\n  max-width: 1200px;\n  width: 85%;\n  height: 95%;\n  margin: 30px auto;\n}\n\n.grid {\n  text-align: center;\n  border-radius: 15px;\n  background-size: cover;\n  background-repeat: no-repeat;\n  padding: 10px;\n}\n\n.two,\n.three,\n.six,\n.seven,\n.nine,\n.eleven,\n.twelve {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  color: gold;\n  font-size: 22px;\n  background: black;\n  line-height: 1.5;\n}\n\n.one {\n  grid-column: 1 / 3;\n  grid-row: 1;\n  background-image: url(" + __webpack_require__(272) + ");\n  background-position: right;\n  background-position: center;\n}\n\n.two {\n  grid-column: 3/ 4;\n  grid-row: 1 / 1;\n}\n\n.three {\n  grid-row: 2;\n  grid-column: 1;\n}\n\n.four {\n  background-position: center;\n  background-image: url(" + __webpack_require__(275) + ");\n  grid-column: 2/4;\n  grid-row: 2;\n}\n\n.five {\n  background-position: center;\n  background-image: url(" + __webpack_require__(276) + ");\n  grid-column: 1/3;\n  grid-row: 3/5;\n}\n\n.six {\n  grid-column: 3;\n  grid-row: 4;\n}\n\n.seven {\n  grid-column: 3;\n  grid-row: 3;\n}\n\n.eight {\n  grid-column: 1/4;\n  grid-row: 5/8;\n  background-image: url(" + __webpack_require__(274) + ");\n  background-position-y: -180px;\n}\n\n.nine {\n  grid-column: 1;\n  grid-row: 6;\n}\n\n.ten {\n  grid-column: 2;\n  grid-row: 6;\n  background-image: url(" + __webpack_require__(273) + ");\n  background-position: center;\n  height: 265px;\n}\n\n.eleven {\n  grid-column: 3;\n  grid-row: 6;\n}\n\n.twelve {\n  grid-column: 1/4;\n  grid-row: 7;\n}\n\n@media (max-width:700px) {\n  .one {\n    transition: all 1s;\n    grid-column: 1/4;\n    grid-row: 1;\n  }\n\n  .two {\n    grid-column: 1/4;\n    grid-row: 2;\n  }\n\n  .three {\n    grid-column: 1/4;\n    grid-row: 4;\n  }\n\n  .four {\n    grid-column: 1/4;\n    grid-row: 3;\n  }\n\n  .five {\n    grid-column: 1/4;\n    grid-row: 5;\n  }\n\n  .six {\n    grid-column: 1/4;\n    grid-row: 6;\n  }\n\n  .seven {\n    grid-column: 1/4;\n    grid-row: 7;\n  }\n\n  .eight {\n    grid-column: 1/4;\n    grid-row: 8/11;\n    background-position-y: -100px;\n  }\n\n  .nine {\n    grid-column: 1/4;\n    grid-row: 9;\n  }\n\n  .ten {\n    grid-column: 1/4;\n    grid-row: 10;\n    height: 294px;\n    border-radius: 195px;\n    width: 227px;\n    margin: auto;\n  }\n\n  .eleven {\n    grid-column: 1/4;\n    grid-row: 11;\n  }\n\n  .twelve {\n    grid-column: 1/4;\n    grid-row: 12;\n  }\n}", ""]);
 
 // exports
 
@@ -6752,7 +6752,7 @@ exports = module.exports = __webpack_require__(30)(undefined);
 
 
 // module
-exports.push([module.i, ".nav-link{\n  color: aquamarine;\n  font-family: sans-serif;\n  font-weight: 100;\n  text-decoration: none;\n  font-size: 30px;\n  margin-top: 40px;\n}\n\n.nav-link:hover{\n  color: #f21515;\n  text-shadow: 1px 1px 1px #000;\n  transition: all 1s !important;\n}\n\n/* Position and sizing of burger button */\n.bm-burger-button {\n  position: absolute;\n  width: 60px;\n  height: 40px;\n  right: 36px;\n  top: 36px;\n}\n\n/* Color/shape of burger icon bars */\n.bm-burger-bars {\n  background: #fff;\n  box-shadow: #000 2px 2px 2px;\n}\n\n.bm-burger-bars:hover {\n  background: cyan;\n  transition: all .5s !important\n}\n\n/* Position and sizing of clickable cross button */\n.bm-cross-button {\n  height: 24px;\n  width: 24px;\n}\n\n/* Color/shape of close button cross */\n.bm-cross {\n  background: #fff;\n  box-shadow: #000 1px 1px 1px 1px;\n}\n\n.bm-menu-wrap{\n  width: 50%;\n  max-width:\n}\n\n/* General sidebar styles */\n.bm-menu {\n  background: #373a47;\n  padding: 2.5em 1.5em 0;\n  font-size: 1.15em;\n}\n\n/* Morph shape necessary with bubble or elastic */\n.bm-morph-shape {\n  fill: #373a47;\n}\n\n/* Wrapper for item list */\n.bm-item-list {\n  color: #b8b7ad;\n  padding: 0.8em;\n}\n\n/* Styling of overlay */\n.bm-overlay {\n  background: rgba(0, 0, 0, 0.3);\n}\n", ""]);
+exports.push([module.i, ".nav-link {\n  color: aquamarine;\n  font-family: sans-serif;\n  font-weight: 100;\n  text-decoration: none;\n  font-size: 30px;\n  margin-top: 40px;\n}\n\n.nav-link:hover {\n  color: #f21515;\n  text-shadow: 1px 1px 1px #000;\n  transition: all 1s !important;\n}\n\n/* Position and sizing of burger button */\n\n.bm-burger-button {\n  position: absolute;\n  width: 60px;\n  height: 40px;\n  right: 36px;\n  top: 36px;\n}\n\n/* Color/shape of burger icon bars */\n\n.bm-burger-bars {\n  background: #fff;\n  box-shadow: #000 2px 2px 2px;\n}\n\n.bm-burger-bars:hover {\n  background: cyan;\n  transition: all .5s !important;\n}\n\n/* Position and sizing of clickable cross button */\n\n.bm-cross-button {\n  height: 24px;\n  width: 24px;\n}\n\n/* Color/shape of close button cross */\n\n.bm-cross {\n  background: #fff;\n  box-shadow: #000 1px 1px 1px 1px;\n}\n\n.bm-menu-wrap {\n  width: 50%;\n  max-width: ;\n}\n\n/* General sidebar styles */\n\n.bm-menu {\n  background: #373a47;\n  padding: 2.5em 1.5em 0;\n  font-size: 1.15em;\n}\n\n/* Morph shape necessary with bubble or elastic */\n\n.bm-morph-shape {\n  fill: #373a47;\n}\n\n/* Wrapper for item list */\n\n.bm-item-list {\n  color: #b8b7ad;\n  padding: 0.8em;\n}\n\n/* Styling of overlay */\n\n.bm-overlay {\n  background: rgba(0, 0, 0, 0.3);\n}", ""]);
 
 // exports
 
@@ -6846,7 +6846,7 @@ var _resolvePathname = __webpack_require__(261);
 
 var _resolvePathname2 = _interopRequireDefault(_resolvePathname);
 
-var _valueEqual = __webpack_require__(272);
+var _valueEqual = __webpack_require__(277);
 
 var _valueEqual2 = _interopRequireDefault(_valueEqual);
 
@@ -14482,31 +14482,55 @@ var MainContent = function MainContent() {
       )
     ),
     _react2.default.createElement(
-      'div',
+      'main',
       { className: 'main-info-container' },
+      _react2.default.createElement('div', { className: 'one grid' }),
       _react2.default.createElement(
-        'h6',
-        { className: 'main-info-cat' },
-        'Who We Are'
+        'div',
+        { className: 'two grid' },
+        _react2.default.createElement(
+          'p',
+          null,
+          'Known Across the Galaxy, Death Star incorporated gives security and order to all, unless you happen to be rebel scum..'
+        )
       ),
       _react2.default.createElement(
-        'p',
-        { className: 'main-info-text' },
-        'blah blah blah blah'
-      )
-    ),
-    _react2.default.createElement(
-      'div',
-      { className: 'main-info-container' },
+        'div',
+        { className: 'three grid' },
+        _react2.default.createElement(
+          'p',
+          null,
+          'This is your chance you cannot miss to become something more!'
+        )
+      ),
+      _react2.default.createElement('div', { className: 'four grid' }),
+      _react2.default.createElement('div', { className: 'five grid' }),
       _react2.default.createElement(
-        'h6',
-        { className: 'main-info-cat' },
-        'TRAINING!'
+        'div',
+        { className: 'six grid' },
+        'Chase down and destroy at will!'
       ),
       _react2.default.createElement(
-        'p',
-        { className: 'main-info-text' },
-        'Get the best paid-training this galaxy has to offer. Enjoy a competitive salary, Good health benefits (dental and vision), life insurance, 401k, flex spending, employee discounts\u2026.  Maybe you can not shoot straight, but heck, who can'
+        'div',
+        { className: 'seven grid' },
+        'Best healthcare and life insurance compared to any other Empire!'
+      ),
+      _react2.default.createElement('div', { className: 'eight grid' }),
+      _react2.default.createElement(
+        'div',
+        { className: 'nine grid' },
+        'Choose among many professions as a pilot, mechanic, trooper, and I even hear commander positions are opening up!'
+      ),
+      _react2.default.createElement('div', { className: 'ten grid' }),
+      _react2.default.createElement(
+        'div',
+        { className: 'eleven grid' },
+        'blah blah blah blah blah blah blah blah blah'
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'twelve grid' },
+        'twelve'
       )
     )
   );
@@ -38181,6 +38205,36 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAe
 /* 272 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "bd9d6b4d7c297b5a6cfcbc2785d74e96.jpg";
+
+/***/ }),
+/* 273 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "2ee7806b57bdfa8f4e46d3dccdf2b4aa.jpg";
+
+/***/ }),
+/* 274 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "2778a30506fe8cc6a4be5b2e2fd158c6.svg";
+
+/***/ }),
+/* 275 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "ce67faedcfabe75b5beb1aad744768ab.jpg";
+
+/***/ }),
+/* 276 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "75824f817dc9d22eb00f99faec33d358.jpg";
+
+/***/ }),
+/* 277 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 
 
@@ -38224,7 +38278,7 @@ var valueEqual = function valueEqual(a, b) {
 exports.default = valueEqual;
 
 /***/ }),
-/* 273 */
+/* 278 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(112);

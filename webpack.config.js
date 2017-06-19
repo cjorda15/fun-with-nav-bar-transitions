@@ -13,7 +13,7 @@ module.exports = {
        loaders:"babel-loader",
        exclude:/node_modules/},
        {test: /\.css$/,
-       loaders:'style-loader!css-loader'},
+       loaders:'style-loader!css-loader!resolve-url-loader'},
        {test: /\.(jpg|png|svg)$/,
         loader: 'url-loader',
         options: {
@@ -23,5 +23,10 @@ module.exports = {
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin()
-  ]
+  ],
+  devServer: {
+  hot: true, // Tell the dev-server we're using HMR
+  contentBase: path.resolve(__dirname, 'public'),
+  publicPath: '/'
+}
 }

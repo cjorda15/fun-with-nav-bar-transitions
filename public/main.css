@@ -20,7 +20,7 @@
   background-position: center;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 100vh;
+  height: 400vh;
 }
 
 .contact-container{
@@ -51,6 +51,10 @@
 .forms-footer-text{
   font-family: bond;
 
+}
+
+.grid{
+  font-family: starWars;
 }
 
 .top-main-content{
