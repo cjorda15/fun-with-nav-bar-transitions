@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "1922b4d04d7416ac91b2"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "dfcf53fad9f264a0852e"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -6738,7 +6738,7 @@ exports = module.exports = __webpack_require__(30)(undefined);
 
 
 // module
-exports.push([module.i, ".top-main-content {\n  flex-direction: column;\n  align-items: center;\n  background: aqua;\n  padding: 15px;\n  font-size: 25px;\n}\n\n.main-info-container {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-gap: 40px;\n  grid-auto-rows: minmax(100px, auto);\n  max-width: 1200px;\n  width: 85%;\n  height: 95%;\n  margin: 30px auto;\n}\n\n.grid {\n  text-align: center;\n  border-radius: 15px;\n  background-size: cover;\n  background-repeat: no-repeat;\n  padding: 10px;\n}\n\n.two,\n.three,\n.six,\n.seven,\n.nine,\n.eleven,\n.twelve {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  color: gold;\n  font-size: 22px;\n  background: black;\n  line-height: 1.5;\n}\n\n.one {\n  grid-column: 1 / 3;\n  grid-row: 1;\n  background-image: url(" + __webpack_require__(272) + ");\n  background-position: right;\n  background-position: center;\n}\n\n.two {\n  grid-column: 3/ 4;\n  grid-row: 1 / 1;\n}\n\n.three {\n  grid-row: 2;\n  grid-column: 1;\n}\n\n.four {\n  background-position: center;\n  background-image: url(" + __webpack_require__(275) + ");\n  grid-column: 2/4;\n  grid-row: 2;\n}\n\n.five {\n  background-position: center;\n  background-image: url(" + __webpack_require__(276) + ");\n  grid-column: 1/3;\n  grid-row: 3/5;\n}\n\n.six {\n  grid-column: 3;\n  grid-row: 4;\n}\n\n.seven {\n  grid-column: 3;\n  grid-row: 3;\n}\n\n.eight {\n  grid-column: 1/4;\n  grid-row: 5/8;\n  background-image: url(" + __webpack_require__(274) + ");\n  background-position-y: -180px;\n}\n\n.nine {\n  grid-column: 1;\n  grid-row: 6;\n}\n\n.ten {\n  grid-column: 2;\n  grid-row: 6;\n  background-image: url(" + __webpack_require__(273) + ");\n  background-position: center;\n  height: 265px;\n}\n\n.eleven {\n  grid-column: 3;\n  grid-row: 6;\n}\n\n.twelve {\n  grid-column: 1/4;\n  grid-row: 7;\n}\n\n@media (max-width:700px) {\n  .one {\n    transition: all 1s;\n    grid-column: 1/4;\n    grid-row: 1;\n  }\n\n  .two {\n    grid-column: 1/4;\n    grid-row: 2;\n  }\n\n  .three {\n    grid-column: 1/4;\n    grid-row: 4;\n  }\n\n  .four {\n    grid-column: 1/4;\n    grid-row: 3;\n  }\n\n  .five {\n    grid-column: 1/4;\n    grid-row: 5;\n  }\n\n  .six {\n    grid-column: 1/4;\n    grid-row: 6;\n  }\n\n  .seven {\n    grid-column: 1/4;\n    grid-row: 7;\n  }\n\n  .eight {\n    grid-column: 1/4;\n    grid-row: 8/11;\n    background-position-y: -100px;\n  }\n\n  .nine {\n    grid-column: 1/4;\n    grid-row: 9;\n  }\n\n  .ten {\n    grid-column: 1/4;\n    grid-row: 10;\n    height: 294px;\n    border-radius: 195px;\n    width: 227px;\n    margin: auto;\n  }\n\n  .eleven {\n    grid-column: 1/4;\n    grid-row: 11;\n  }\n\n  .twelve {\n    grid-column: 1/4;\n    grid-row: 12;\n  }\n}", ""]);
+exports.push([module.i, ".top-main-content {\n  flex-direction: column;\n  align-items: center;\n  background: aqua;\n  padding: 15px;\n  font-size: 25px;\n}\n\n.main-info-container {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-gap: 40px;\n  grid-auto-rows: minmax(100px, auto);\n  max-width: 1200px;\n  width: 85%;\n  height: 95%;\n  margin: 30px auto;\n}\n\n.grid {\n  text-align: center;\n  border-radius: 15px;\n  background-size: cover;\n  background-repeat: no-repeat;\n  padding: 10px;\n}\n\n.two,\n.three,\n.six,\n.seven,\n.nine,\n.eleven,\n.twelve {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  color: gold;\n  font-size: 22px;\n  background: black;\n  line-height: 1.5;\n}\n\n.one {\n  grid-column: 1 / 3;\n  grid-row: 1;\n  background-image: url(" + __webpack_require__(272) + ");\n  background-position: right;\n  background-position: center;\n}\n\n.two {\n  grid-column: 3/ 4;\n  grid-row: 1 / 1;\n}\n\n.three {\n  grid-row: 2;\n  grid-column: 1;\n}\n\n.four {\n  background-position: center;\n  background-image: url(" + __webpack_require__(275) + ");\n  grid-column: 2/4;\n  grid-row: 2;\n}\n\n.five {\n  background-position: center;\n  background-image: url(" + __webpack_require__(276) + ");\n  grid-column: 1/3;\n  grid-row: 3/5;\n}\n\n.six {\n  grid-column: 3;\n  grid-row: 4;\n}\n\n.seven {\n  grid-column: 3;\n  grid-row: 3;\n}\n\n.eight {\n  grid-column: 1/4;\n  grid-row: 5/8;\n  background-image: url(" + __webpack_require__(274) + ");\n  background-position-y: -255px;\n}\n\n.nine {\n  grid-column: 1;\n  grid-row: 6;\n}\n\n.ten {\n  grid-column: 2;\n  grid-row: 6;\n  background-image: url(" + __webpack_require__(273) + ");\n  background-position: center;\n  height: 265px;\n}\n\n.eleven {\n  grid-column: 3;\n  grid-row: 6;\n}\n\n.twelve {\n  grid-column: 1/4;\n  grid-row: 7;\n}\n\n@media (max-width:700px) {\n  .one {\n    transition: all 1s;\n    grid-column: 1/4;\n    grid-row: 1;\n  }\n\n  .two {\n    grid-column: 1/4;\n    grid-row: 2;\n  }\n\n  .three {\n    grid-column: 1/4;\n    grid-row: 4;\n  }\n\n  .four {\n    grid-column: 1/4;\n    grid-row: 3;\n  }\n\n  .five {\n    grid-column: 1/4;\n    grid-row: 5;\n  }\n\n  .six {\n    grid-column: 1/4;\n    grid-row: 6;\n  }\n\n  .seven {\n    grid-column: 1/4;\n    grid-row: 7;\n  }\n\n  .eight {\n    grid-column: 1/4;\n    grid-row: 8/11;\n    background-position-y: -100px;\n  }\n\n  .nine {\n    grid-column: 1/4;\n    grid-row: 9;\n  }\n\n  .ten {\n    grid-column: 1/4;\n    grid-row: 10;\n    height: 294px;\n    border-radius: 195px;\n    width: 227px;\n    margin: auto;\n  }\n\n  .eleven {\n    grid-column: 1/4;\n    grid-row: 11;\n  }\n\n  .twelve {\n    grid-column: 1/4;\n    grid-row: 12;\n  }\n}", ""]);
 
 // exports
 
@@ -14468,75 +14468,38 @@ var MainContent = function MainContent() {
     'div',
     { id: 'main-content-container', className: 'main-content-container' },
     _react2.default.createElement(
-      'div',
-      { className: 'top-main-content main-content' },
-      _react2.default.createElement(
-        'h3',
-        null,
-        'DEATH STAR incorporated'
-      ),
-      _react2.default.createElement(
-        'p',
-        null,
-        'It is a blast here!'
-      )
+      'h3',
+      null,
+      'DEATH STAR incorporated'
     ),
     _react2.default.createElement(
-      'main',
-      { className: 'main-info-container' },
-      _react2.default.createElement('div', { className: 'one grid' }),
-      _react2.default.createElement(
-        'div',
-        { className: 'two grid' },
-        _react2.default.createElement(
-          'p',
-          null,
-          'Known Across the Galaxy, Death Star incorporated gives security and order to all, unless you happen to be rebel scum..'
-        )
-      ),
-      _react2.default.createElement(
-        'div',
-        { className: 'three grid' },
-        _react2.default.createElement(
-          'p',
-          null,
-          'This is your chance you cannot miss to become something more!'
-        )
-      ),
-      _react2.default.createElement('div', { className: 'four grid' }),
-      _react2.default.createElement('div', { className: 'five grid' }),
-      _react2.default.createElement(
-        'div',
-        { className: 'six grid' },
-        'Chase down and destroy at will!'
-      ),
-      _react2.default.createElement(
-        'div',
-        { className: 'seven grid' },
-        'Best healthcare and life insurance compared to any other Empire!'
-      ),
-      _react2.default.createElement('div', { className: 'eight grid' }),
-      _react2.default.createElement(
-        'div',
-        { className: 'nine grid' },
-        'Choose among many professions as a pilot, mechanic, trooper, and I even hear commander positions are opening up!'
-      ),
-      _react2.default.createElement('div', { className: 'ten grid' }),
-      _react2.default.createElement(
-        'div',
-        { className: 'eleven grid' },
-        'blah blah blah blah blah blah blah blah blah'
-      ),
-      _react2.default.createElement(
-        'div',
-        { className: 'twelve grid' },
-        'twelve'
-      )
+      'p',
+      null,
+      'It is a blast here!'
     )
   );
 };
 
 exports.default = MainContent;
+
+// <div className="top-main-content main-content">
+// </div>
+// <main className="main-info-container">
+// <div className="one grid"></div>
+// <div className="two grid">
+// <p>Known Across the Galaxy, Death Star incorporated gives security and order to all, unless you happen to be rebel scum..</p>
+// </div>
+// <div className="three grid"><p>This is your chance you cannot miss to become something more!</p></div>
+// <div className="four grid"></div>
+// <div className="five grid"></div>
+// <div className="six grid">Chase down and destroy at will!</div>
+// <div className="seven grid">Best healthcare and life insurance compared to any other Empire!</div>
+// <div className="eight grid"></div>
+// <div className="nine grid">Choose among many professions as a pilot, mechanic, trooper, and I even hear commander positions are opening up!</div>
+// <div className="ten grid"></div>
+// <div className="eleven grid">blah blah blah blah blah blah blah blah blah</div>
+// <div className="twelve grid">twelve</div>
+// </main>
 
 /***/ }),
 /* 117 */
