@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "dfcf53fad9f264a0852e"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "5059e92b61aa6dfd23a2"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -706,7 +706,7 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(278)(__webpack_require__.s = 278);
+/******/ 	return hotCreateRequire(274)(__webpack_require__.s = 274);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -6738,7 +6738,7 @@ exports = module.exports = __webpack_require__(30)(undefined);
 
 
 // module
-exports.push([module.i, ".top-main-content {\n  flex-direction: column;\n  align-items: center;\n  background: aqua;\n  padding: 15px;\n  font-size: 25px;\n}\n\n.main-info-container {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-gap: 40px;\n  grid-auto-rows: minmax(100px, auto);\n  max-width: 1200px;\n  width: 85%;\n  height: 95%;\n  margin: 30px auto;\n}\n\n.grid {\n  text-align: center;\n  border-radius: 15px;\n  background-size: cover;\n  background-repeat: no-repeat;\n  padding: 10px;\n}\n\n.two,\n.three,\n.six,\n.seven,\n.nine,\n.eleven,\n.twelve {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  color: gold;\n  font-size: 22px;\n  background: black;\n  line-height: 1.5;\n}\n\n.one {\n  grid-column: 1 / 3;\n  grid-row: 1;\n  background-image: url(" + __webpack_require__(272) + ");\n  background-position: right;\n  background-position: center;\n}\n\n.two {\n  grid-column: 3/ 4;\n  grid-row: 1 / 1;\n}\n\n.three {\n  grid-row: 2;\n  grid-column: 1;\n}\n\n.four {\n  background-position: center;\n  background-image: url(" + __webpack_require__(275) + ");\n  grid-column: 2/4;\n  grid-row: 2;\n}\n\n.five {\n  background-position: center;\n  background-image: url(" + __webpack_require__(276) + ");\n  grid-column: 1/3;\n  grid-row: 3/5;\n}\n\n.six {\n  grid-column: 3;\n  grid-row: 4;\n}\n\n.seven {\n  grid-column: 3;\n  grid-row: 3;\n}\n\n.eight {\n  grid-column: 1/4;\n  grid-row: 5/8;\n  background-image: url(" + __webpack_require__(274) + ");\n  background-position-y: -255px;\n}\n\n.nine {\n  grid-column: 1;\n  grid-row: 6;\n}\n\n.ten {\n  grid-column: 2;\n  grid-row: 6;\n  background-image: url(" + __webpack_require__(273) + ");\n  background-position: center;\n  height: 265px;\n}\n\n.eleven {\n  grid-column: 3;\n  grid-row: 6;\n}\n\n.twelve {\n  grid-column: 1/4;\n  grid-row: 7;\n}\n\n@media (max-width:700px) {\n  .one {\n    transition: all 1s;\n    grid-column: 1/4;\n    grid-row: 1;\n  }\n\n  .two {\n    grid-column: 1/4;\n    grid-row: 2;\n  }\n\n  .three {\n    grid-column: 1/4;\n    grid-row: 4;\n  }\n\n  .four {\n    grid-column: 1/4;\n    grid-row: 3;\n  }\n\n  .five {\n    grid-column: 1/4;\n    grid-row: 5;\n  }\n\n  .six {\n    grid-column: 1/4;\n    grid-row: 6;\n  }\n\n  .seven {\n    grid-column: 1/4;\n    grid-row: 7;\n  }\n\n  .eight {\n    grid-column: 1/4;\n    grid-row: 8/11;\n    background-position-y: -100px;\n  }\n\n  .nine {\n    grid-column: 1/4;\n    grid-row: 9;\n  }\n\n  .ten {\n    grid-column: 1/4;\n    grid-row: 10;\n    height: 294px;\n    border-radius: 195px;\n    width: 227px;\n    margin: auto;\n  }\n\n  .eleven {\n    grid-column: 1/4;\n    grid-row: 11;\n  }\n\n  .twelve {\n    grid-column: 1/4;\n    grid-row: 12;\n  }\n}", ""]);
+exports.push([module.i, ".top-main-content {\n  flex-direction: column;\n  align-items: flex-start;\n  background: #fff;\n  padding: 15px 15px 15px 55px;\n  font-size: 20px;\n  width: 100vw;\n}\n\n.main-content {\n  display: flex;\n  width: 90%;\n  justify-content: center;\n  margin: 0px auto;\n  flex-direction: column;\n  align-items: stretch;\n  font-family: \"proxima-nova\",\"helvetica\",\"arial\",\"sans\";\n  font-weight: 100;\n}\n\n/*.main-info-container{\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-gap: 40px;\n  grid-auto-rows: minmax(100px, auto);\n  max-width: 1200px;\n  width:85%;\n  height: 95%;\n  margin: 30px auto;\n}*/\n\n.main-content-container section {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  margin-top: 30px;\n  width: 100%;\n  text-align: center;\n}\n\n.main-content h6 {\n  font-family: sans-serif;\n  font-size: 35px;\n  font-weight: 300;\n  text-decoration: underline;\n  margin-bottom: 10px;\n}\n\n.row-1 {\n  height: 125px;\n  font-size: 18px;\n}\n\n.row-2 {\n  height: 200px;\n  background-image: url(" + __webpack_require__(272) + ");\n  background-size: cover;\n}\n\n.row-3 {\n  background-color: #fff;\n  padding: 20px;\n}\n\n.row-4 {\n  height: 200px;\n  background-color: blue;\n}\n\n.row-5 {\n  height: 200px;\n  background-color: blue;\n}\n\n.row-6 {\n  height: 200px;\n  background-color: blue;\n}\n\n/*.row-1,.row-3,.row-6{\n\n}*/", ""]);
 
 // exports
 
@@ -6846,7 +6846,7 @@ var _resolvePathname = __webpack_require__(261);
 
 var _resolvePathname2 = _interopRequireDefault(_resolvePathname);
 
-var _valueEqual = __webpack_require__(277);
+var _valueEqual = __webpack_require__(273);
 
 var _valueEqual2 = _interopRequireDefault(_valueEqual);
 
@@ -14468,25 +14468,73 @@ var MainContent = function MainContent() {
     'div',
     { id: 'main-content-container', className: 'main-content-container' },
     _react2.default.createElement(
-      'h3',
-      null,
-      'DEATH STAR incorporated'
+      'div',
+      { className: 'top-main-content' },
+      _react2.default.createElement(
+        'h3',
+        null,
+        'DEATH STAR incorporated'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        'It is a blast here!'
+      )
     ),
     _react2.default.createElement(
-      'p',
+      'div',
+      { className: 'main-content' },
+      _react2.default.createElement(
+        'section',
+        { className: 'row-1' },
+        _react2.default.createElement(
+          'h6',
+          null,
+          'Welcome'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          ' "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."'
+        )
+      ),
+      _react2.default.createElement('section', { className: 'row-2 ' }),
+      _react2.default.createElement(
+        'section',
+        { className: 'row-3' },
+        'Hi! We are Death Star incorporated,Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi'
+      ),
+      _react2.default.createElement(
+        'section',
+        { className: 'row-4' },
+        'row4'
+      ),
+      _react2.default.createElement(
+        'section',
+        { className: 'row-5' },
+        'row5'
+      ),
+      _react2.default.createElement(
+        'section',
+        { className: 'row-6' },
+        'row6'
+      )
+    ),
+    _react2.default.createElement(
+      'footer',
       null,
-      'It is a blast here!'
+      'footer'
     )
   );
 };
 
 exports.default = MainContent;
 
-// <div className="top-main-content main-content">
-// </div>
 // <main className="main-info-container">
 // <div className="one grid"></div>
 // <div className="two grid">
+// </main>
+// </div>
 // <p>Known Across the Galaxy, Death Star incorporated gives security and order to all, unless you happen to be rebel scum..</p>
 // </div>
 // <div className="three grid"><p>This is your chance you cannot miss to become something more!</p></div>
@@ -38168,34 +38216,10 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAe
 /* 272 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "bd9d6b4d7c297b5a6cfcbc2785d74e96.jpg";
-
-/***/ }),
-/* 273 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "2ee7806b57bdfa8f4e46d3dccdf2b4aa.jpg";
-
-/***/ }),
-/* 274 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "2778a30506fe8cc6a4be5b2e2fd158c6.svg";
-
-/***/ }),
-/* 275 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "ce67faedcfabe75b5beb1aad744768ab.jpg";
-
-/***/ }),
-/* 276 */
-/***/ (function(module, exports, __webpack_require__) {
-
 module.exports = __webpack_require__.p + "75824f817dc9d22eb00f99faec33d358.jpg";
 
 /***/ }),
-/* 277 */
+/* 273 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38241,7 +38265,7 @@ var valueEqual = function valueEqual(a, b) {
 exports.default = valueEqual;
 
 /***/ }),
-/* 278 */
+/* 274 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(112);

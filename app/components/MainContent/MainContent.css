@@ -1,12 +1,22 @@
 .top-main-content{
   flex-direction: column;
-  align-items: center;
-  background: aqua;
-  padding: 15px;
-  font-size: 25px;
+  align-items: flex-start;
+  background: #fff;
+  padding: 15px 15px 15px 55px;  font-size: 20px;
+  width: 100vw;
+}
+.main-content{
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  margin: 0px auto;
+  flex-direction: column;
+  align-items: stretch;
+  font-family: "proxima-nova","helvetica","arial","sans";
+  font-weight: 100;
 }
 
-.main-info-container{
+/*.main-info-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 40px;
@@ -15,167 +25,62 @@
   width:85%;
   height: 95%;
   margin: 30px auto;
-}
+}*/
 
-.grid{
+
+.main-content-container section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 30px;
+  width:100%;
   text-align: center;
-  border-radius: 15px;
+}
+
+.main-content h6{
+  font-family: sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.row-1{
+  height: 125px;
+  font-size: 18px;
+}
+
+.row-2{
+  height: 200px;
+  background-image: url('75824f817dc9d22eb00f99faec33d358.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
-  padding: 10px;
 }
 
-.two,
-.three,
-.six,
-.seven,
-.nine,
-.eleven,
-.twelve{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    color: gold;
-    font-size: 22px;
-    background: black;
-    line-height: 1.5;
-}
-.one {
-  grid-column: 1 / 3;
-  grid-row: 1;
-  background-image: url('Icon-Images/sw1.jpg');
-  background-position: right;
-  background-position: center;
-}
-.two {
-  grid-column: 3/ 4;
-  grid-row: 1 / 1;
-
-}
-.three {
-  grid-row: 2;
-  grid-column: 1;
-
-}
-.four {
-  background-position: center;
-  background-image: url('Icon-Images/sw7.jpg');
-  grid-column: 2/4;
-  grid-row: 2;
-
-}
-.five {
-  background-position: center;
-  background-image: url('Icon-Images/swg2.jpg');
-  grid-column: 1/3;
-  grid-row: 3/5;
-
-}
-.six {
-  grid-column: 3;
-  grid-row: 4;
+.row-3{
+  background-color: #fff;
+  padding: 20px;
 }
 
-.seven{
-  grid-column: 3;
-  grid-row: 3;
+.row-4{
+  height: 200px;
+  background-color: blue;
+
 }
 
-.eight{
-  grid-column: 1/4;
-  grid-row: 5/8;
-  background-image: url('Icon-Images/sw4.svg');
-  background-position-y: -255px;
+.row-5{
+  height: 200px;
+  background-color: blue;
+
 }
 
-.nine{
-  grid-column: 1;
-  grid-row: 6;
-}
+.row-6{
+  height: 200px;
+  background-color: blue;
 
-.ten{
-  grid-column: 2;
-  grid-row: 6;
-  background-image: url('Icon-Images/sw11.jpg');
-  background-position: center;
-  height: 265px;
-}
-
-.eleven{
-  grid-column: 3;
-  grid-row: 6;
-}
-
-.twelve{
-  grid-column: 1/4;
-  grid-row: 7;
 }
 
 
-@media (max-width:700px){
-  .one{
-    transition: all 1s;
-    grid-column: 1/4;
-    grid-row: 1;
-  }
 
-  .two{
-    grid-column: 1/4;
-    grid-row: 2;
-  }
+/*.row-1,.row-3,.row-6{
 
-  .three{
-    grid-column: 1/4;
-    grid-row: 4;
-  }
-
-  .four{
-    grid-column: 1/4;
-    grid-row: 3;
-  }
-
-  .five{
-    grid-column: 1/4;
-    grid-row: 5;
-  }
-
-  .six{
-    grid-column: 1/4;
-    grid-row:6;
-  }
-
-  .seven{
-    grid-column: 1/4;
-    grid-row:7;
-  }
-
-  .eight{
-    grid-column: 1/4;
-    grid-row:8/11;
-    background-position-y: -100px;
-  }
-
-  .nine{
-    grid-column: 1/4;
-    grid-row:9;
-  }
-
-  .ten{
-    grid-column: 1/4;
-    grid-row: 10;
-    height: 294px;
-    border-radius: 195px;
-    width: 227px;
-    margin: auto;
-  }
-
-  .eleven{
-    grid-column: 1/4;
-    grid-row:11;
-  }
-
-  .twelve{
-    grid-column: 1/4;
-    grid-row:12;
-  }
-}
+}*/
