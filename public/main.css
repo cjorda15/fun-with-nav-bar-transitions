@@ -24,6 +24,10 @@
   height: 300vh;
 }
 
+.row-2{
+  background-image: url('75824f817dc9d22eb00f99faec33d358.jpg');
+}
+
 .contact-container{
   background-image: url(g.gif);
   background-size: cover;

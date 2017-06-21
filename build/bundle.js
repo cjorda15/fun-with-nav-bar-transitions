@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "5059e92b61aa6dfd23a2"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "4ef2a1f3bbbb139240f0"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -706,7 +706,7 @@
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return hotCreateRequire(274)(__webpack_require__.s = 274);
+/******/ 	return hotCreateRequire(273)(__webpack_require__.s = 273);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -6738,7 +6738,7 @@ exports = module.exports = __webpack_require__(30)(undefined);
 
 
 // module
-exports.push([module.i, ".top-main-content {\n  flex-direction: column;\n  align-items: flex-start;\n  background: #fff;\n  padding: 15px 15px 15px 55px;\n  font-size: 20px;\n  width: 100vw;\n}\n\n.main-content {\n  display: flex;\n  width: 90%;\n  justify-content: center;\n  margin: 0px auto;\n  flex-direction: column;\n  align-items: stretch;\n  font-family: \"proxima-nova\",\"helvetica\",\"arial\",\"sans\";\n  font-weight: 100;\n}\n\n/*.main-info-container{\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-gap: 40px;\n  grid-auto-rows: minmax(100px, auto);\n  max-width: 1200px;\n  width:85%;\n  height: 95%;\n  margin: 30px auto;\n}*/\n\n.main-content-container section {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  margin-top: 30px;\n  width: 100%;\n  text-align: center;\n}\n\n.main-content h6 {\n  font-family: sans-serif;\n  font-size: 35px;\n  font-weight: 300;\n  text-decoration: underline;\n  margin-bottom: 10px;\n}\n\n.row-1 {\n  height: 125px;\n  font-size: 18px;\n}\n\n.row-2 {\n  height: 200px;\n  background-image: url(" + __webpack_require__(272) + ");\n  background-size: cover;\n}\n\n.row-3 {\n  background-color: #fff;\n  padding: 20px;\n}\n\n.row-4 {\n  height: 200px;\n  background-color: blue;\n}\n\n.row-5 {\n  height: 200px;\n  background-color: blue;\n}\n\n.row-6 {\n  height: 200px;\n  background-color: blue;\n}\n\n/*.row-1,.row-3,.row-6{\n\n}*/", ""]);
+exports.push([module.i, ".top-main-content {\n  flex-direction: column;\n  align-items: flex-start;\n  background: #fff;\n  padding: 15px 15px 15px 55px;\n  font-size: 20px;\n  width: 100vw;\n}\n\n.main-content {\n  display: flex;\n  width: 90%;\n  justify-content: center;\n  margin: 0px auto;\n  flex-direction: column;\n  align-items: stretch;\n  font-family: \"proxima-nova\",\"helvetica\",\"arial\",\"sans\";\n  font-weight: 100;\n}\n\n/*.main-info-container{\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-gap: 40px;\n  grid-auto-rows: minmax(100px, auto);\n  max-width: 1200px;\n  width:85%;\n  height: 95%;\n  margin: 30px auto;\n}*/\n\n.main-content-container section {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  margin-top: 30px;\n  width: 100%;\n  text-align: center;\n}\n\n.main-content h6 {\n  font-family: sans-serif;\n  font-size: 35px;\n  font-weight: 300;\n  text-decoration: underline;\n  margin-bottom: 10px;\n}\n\n.row-1 {\n  height: 125px;\n  font-size: 18px;\n}\n\n.row-2 {\n  height: 200px;\n  background-size: cover;\n}\n\n.row-3 {\n  background-color: #fff;\n  padding: 20px;\n}\n\n.row-4 {\n  height: 200px;\n  background-color: blue;\n}\n\n.row-5 {\n  height: 200px;\n  background-color: blue;\n}\n\n.row-6 {\n  height: 200px;\n  background-color: blue;\n}\n\n/*.row-1,.row-3,.row-6{\n\n}*/", ""]);
 
 // exports
 
@@ -6846,7 +6846,7 @@ var _resolvePathname = __webpack_require__(261);
 
 var _resolvePathname2 = _interopRequireDefault(_resolvePathname);
 
-var _valueEqual = __webpack_require__(273);
+var _valueEqual = __webpack_require__(272);
 
 var _valueEqual2 = _interopRequireDefault(_valueEqual);
 
@@ -38216,12 +38216,6 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAe
 /* 272 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "75824f817dc9d22eb00f99faec33d358.jpg";
-
-/***/ }),
-/* 273 */
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -38265,7 +38259,7 @@ var valueEqual = function valueEqual(a, b) {
 exports.default = valueEqual;
 
 /***/ }),
-/* 274 */
+/* 273 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(112);
