@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "4ef2a1f3bbbb139240f0"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "527933e8ac76b05261ae"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -6738,7 +6738,7 @@ exports = module.exports = __webpack_require__(30)(undefined);
 
 
 // module
-exports.push([module.i, ".top-main-content {\n  flex-direction: column;\n  align-items: flex-start;\n  background: #fff;\n  padding: 15px 15px 15px 55px;\n  font-size: 20px;\n  width: 100vw;\n}\n\n.main-content {\n  display: flex;\n  width: 90%;\n  justify-content: center;\n  margin: 0px auto;\n  flex-direction: column;\n  align-items: stretch;\n  font-family: \"proxima-nova\",\"helvetica\",\"arial\",\"sans\";\n  font-weight: 100;\n}\n\n/*.main-info-container{\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-gap: 40px;\n  grid-auto-rows: minmax(100px, auto);\n  max-width: 1200px;\n  width:85%;\n  height: 95%;\n  margin: 30px auto;\n}*/\n\n.main-content-container section {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  margin-top: 30px;\n  width: 100%;\n  text-align: center;\n}\n\n.main-content h6 {\n  font-family: sans-serif;\n  font-size: 35px;\n  font-weight: 300;\n  text-decoration: underline;\n  margin-bottom: 10px;\n}\n\n.row-1 {\n  height: 125px;\n  font-size: 18px;\n}\n\n.row-2 {\n  height: 200px;\n  background-size: cover;\n}\n\n.row-3 {\n  background-color: #fff;\n  padding: 20px;\n}\n\n.row-4 {\n  height: 200px;\n  background-color: blue;\n}\n\n.row-5 {\n  height: 200px;\n  background-color: blue;\n}\n\n.row-6 {\n  height: 200px;\n  background-color: blue;\n}\n\n/*.row-1,.row-3,.row-6{\n\n}*/", ""]);
+exports.push([module.i, ".top-main-content {\n  flex-direction: column;\n  align-items: flex-start;\n  background: #fff;\n  padding: 15px 15px 15px 55px;\n  font-size: 20px;\n  width: 100vw;\n}\n\n.main-content {\n  display: flex;\n  width: 90%;\n  justify-content: center;\n  margin: 15px auto;\n  flex-direction: column;\n  align-items: stretch;\n  font-family: \"proxima-nova\",\"helvetica\",\"arial\",\"sans\";\n  font-weight: 100;\n}\n\n.footer-section {\n  color: #828386;\n  letter-spacing: .08em;\n  font-family: sans-serif;\n  font-weight: 100;\n  font-size: 12px;\n}\n\n.footer-section span {\n  font-size: 20px;\n}\n\n/*.main-info-container{\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-gap: 40px;\n  grid-auto-rows: minmax(100px, auto);\n  max-width: 1200px;\n  width:85%;\n  height: 95%;\n  margin: 30px auto;\n}*/\n\n.main-content-container section {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n  width: 100%;\n  max-width: 850px;\n  margin: 30px auto;\n}\n\n.main-content h6,\n.main-content h5 {\n  border-bottom: black 4px solid;\n  font-family: sans-serif;\n  font-size: 25px;\n  font-weight: 300;\n  text-decoration: none;\n  margin: 20px;\n}\n\n.main-content h6 {\n  width: 250px;\n}\n\n.main-content h5 {\n  width: 115px;\n}\n\n.row-1 {\n  height: 125px;\n  font-size: 21px;\n  font-weight: 400;\n  line-height: 26px;\n  letter-spacing: .05em;\n  font-family: \"proxima-nova\",\"helvetica\",\"arial\",\"sans\";\n}\n\n.row-2,\n.row-4,\n.row-5,\n.row-7 {\n  height: 200px;\n  background-size: cover;\n  background-position: center;\n}\n\n.row-3 {\n  background-color: #fff;\n  font-size: 15px;\n  line-height: 1.368em;\n  letter-spacing: .05em;\n  padding: 20px;\n}\n\n.row-4 {\n  height: 200px;\n  background-color: blue;\n}\n\n.row-5 {\n  height: 200px;\n}\n\n.row-6 {\n  font-family: \"proxima-nova\",\"helvetica\",\"arial\",\"sans\";\n  font-weight: 100;\n  font-size: 18px;\n  background-color: #fff;\n}\n\n.row-6 div {\n  padding: 15px;\n}\n\n.row-6 div p {\n  border-bottom: 3px solid black;\n  display: table;\n}\n\n.row-8 {\n  background-color: #fff;\n}\n\n.list-container li {\n  list-style: none;\n  align-items: flex-start;\n  text-align: left;\n  width: 50%;\n  padding: 0px 0px 20px 20px;\n}\n\n.list-container {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: flex-start;\n}\n\n.main-content-container footer {\n  display: flex;\n  flex-direction: column;\n  background-color: #231F20;\n}\n\n.footer-section {\n  padding: 20px;\n}", ""]);
 
 // exports
 
@@ -14488,7 +14488,7 @@ var MainContent = function MainContent() {
         'section',
         { className: 'row-1' },
         _react2.default.createElement(
-          'h6',
+          'h5',
           null,
           'Welcome'
         ),
@@ -14504,50 +14504,248 @@ var MainContent = function MainContent() {
         { className: 'row-3' },
         'Hi! We are Death Star incorporated,Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi'
       ),
-      _react2.default.createElement(
-        'section',
-        { className: 'row-4' },
-        'row4'
-      ),
-      _react2.default.createElement(
-        'section',
-        { className: 'row-5' },
-        'row5'
-      ),
+      _react2.default.createElement('section', { className: 'row-4' }),
+      _react2.default.createElement('section', { className: 'row-5' }),
       _react2.default.createElement(
         'section',
         { className: 'row-6' },
-        'row6'
+        _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(
+            'p',
+            null,
+            '999-9999-9999'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'deathstarincorporated.com'
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(
+            'p',
+            null,
+            '718 Colorado Ave N'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'Suite 300'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            ' Denver, Colorado, 80202'
+          )
+        )
+      ),
+      _react2.default.createElement('section', { className: 'row-7' }),
+      _react2.default.createElement(
+        'section',
+        { className: 'row-8' },
+        _react2.default.createElement(
+          'h6',
+          null,
+          'PARTIAL CLIENT LIST'
+        ),
+        _react2.default.createElement(
+          'ul',
+          { className: 'list-container' },
+          _react2.default.createElement(
+            'li',
+            null,
+            'Target'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'FaceBook'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'The New York Times'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Chronicle Books'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Williams Sonoma'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Moet Hennessy'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Minnesota Orchestra'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Lowes'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Big Cartel'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Real Simple Magazine'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Random House'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Wired'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Old Navy'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Purina'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Post'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'JCPenny'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'ESPN Magazine'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Minnesota Opera'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Zendesk'
+          )
+        )
       )
     ),
     _react2.default.createElement(
       'footer',
       null,
-      'footer'
+      _react2.default.createElement(
+        'div',
+        { className: 'footer-section' },
+        _react2.default.createElement(
+          'span',
+          null,
+          'Connect'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'TWITTER'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'FACEBOOK'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          ' DRIBBLE'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'INSTAGRAM'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'PINTEREST'
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'footer-section' },
+        _react2.default.createElement(
+          'span',
+          null,
+          'Contact'
+        ),
+        _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(
+            'p',
+            null,
+            '718 Colorado Ave N'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'Suite 300'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            ' Denver, Colorado, 80202'
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'footer-section' },
+        _react2.default.createElement(
+          'p',
+          null,
+          '999-9999-9999'
+        ),
+        _react2.default.createElement(
+          'p',
+          null,
+          'deathstarincorporated.com'
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'footer-section' },
+        _react2.default.createElement(
+          'copyright',
+          null,
+          '\xA9 2004 \u2013 2017 death star incorporated'
+        )
+      )
     )
   );
 };
 
 exports.default = MainContent;
-
-// <main className="main-info-container">
-// <div className="one grid"></div>
-// <div className="two grid">
-// </main>
-// </div>
-// <p>Known Across the Galaxy, Death Star incorporated gives security and order to all, unless you happen to be rebel scum..</p>
-// </div>
-// <div className="three grid"><p>This is your chance you cannot miss to become something more!</p></div>
-// <div className="four grid"></div>
-// <div className="five grid"></div>
-// <div className="six grid">Chase down and destroy at will!</div>
-// <div className="seven grid">Best healthcare and life insurance compared to any other Empire!</div>
-// <div className="eight grid"></div>
-// <div className="nine grid">Choose among many professions as a pilot, mechanic, trooper, and I even hear commander positions are opening up!</div>
-// <div className="ten grid"></div>
-// <div className="eleven grid">blah blah blah blah blah blah blah blah blah</div>
-// <div className="twelve grid">twelve</div>
-// </main>
 
 /***/ }),
 /* 117 */

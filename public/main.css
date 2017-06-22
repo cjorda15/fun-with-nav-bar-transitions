@@ -21,11 +21,23 @@
   /*background-position: center;*/
   /*background-repeat: no-repeat;*/
   width: 100vw;
-  height: 300vh;
 }
 
 .row-2{
   background-image: url('75824f817dc9d22eb00f99faec33d358.jpg');
+}
+
+.row-4{
+  background-image: url('sw1.jpg');
+}
+
+.row-5{
+  background-image: url('sw7.jpg');
+}
+
+.row-7{
+  background-image: url('sw11.jpg');
+
 }
 
 .contact-container{
